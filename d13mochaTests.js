@@ -5,14 +5,14 @@
     return balance;
 }
  describe("test of compoundInterest", function () {
-    it("initial amount, annual interest rate, 
-    number of years to compound", function () {
+    it("calculate compound interest", function () {
         assert.equal(compoundInterest(100, 10, 1), 110.47);
     });
+});
 
-    it("initial amount, annual interest rate, 
-    number of years to compound", function () {
+    it("calculate compound interest", function () {
         assert.equal(compoundInterest(10000, 5, 10), 16470.09);
     });
+});
 
     
