@@ -1,3 +1,5 @@
+"use strict";
+
 const assert = require("assert");
 const methods = require("./codeQuality.js");
 const isVowel = methods.isVowel;
