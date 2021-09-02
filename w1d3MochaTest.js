@@ -37,8 +37,8 @@ describe("test of ComputSalesCommission", function () {
 describe("calcDownpayment", function () {
     it("calcDownpayment", function () {
         assert.equal(calcDownpayment())
-    })
-})
+    });
+});
 
 //tes for isVowel function
 describe("isVowel", function () {
@@ -93,10 +93,12 @@ describe(" test convertFahrenheit", function () {
     it("if the value Fahrenheit is 100", function () {
         assert.equal(convertFahrenheit(100), 37.7778);
     });
+  });
 
 // test for calcDistance 
 
 describe(" test calculate the distance", function () {
     it("if the value is  0, 0, 5, 5", function () {
-        assert.equal(calcDistance (0, 0, 5, 5), 5)
+        assert.equal(calcDistance (0, 0, 5, 5), 5);
     });
+  });
